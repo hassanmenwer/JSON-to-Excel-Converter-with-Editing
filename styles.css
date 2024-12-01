@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.json-to-excel-container {
+    margin-bottom: 30px;
+}
+
+.json-to-excel-container input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    transition: all 0.3s ease;
+    width: 220px;
+}
+
+.json-to-excel-container input[type="file"]:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.json-to-excel-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.json-to-excel-container table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.json-to-excel-container th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.json-to-excel-container td {
+    padding: 10px;
+}
+
+.json-to-excel-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.json-to-excel-container tr:hover {
+    background-color: #eafaf1;
+}
+
+.json-to-excel-container button {
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.json-to-excel-container button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.json-to-excel-container input[type="text"] {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.advertisement-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(4, 156, 37, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advertisement-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+}

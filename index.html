@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert JSON to Excel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Convert JSON to Excel with modifications</h1>
+        
+        <div class="json-to-excel-container">
+            <input type="file" id="fileInput" accept=".json">
+            <table id="dataTable">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+            <button id="downloadBtn">Download Excel file</button>
+        </div>
+
+        <div class="advertisement-container">
+            <img src="jawal-image.png" alt="advertisement" class="advertisement-image">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
