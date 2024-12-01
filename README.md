@@ -5,4 +5,4 @@ First, the user interface was designed using HTML to contain the file upload but
 A "Notes" column was added in the table so that the user can add his own notes to each message. This column is automatically updated in tableData when the contents are modified by the user. Finally, using the SheetJS library (xlsx), the modified data was exported to an Excel file containing all the information with the entered notes.
 The technologies used in this project included HTML to build the user interface, CSS to format the page, JavaScript to handle data loading and editing, and SheetJS to convert data to Excel. Multiple challenges were addressed while working on the project, such as ensuring that data was formatted correctly, messages were separated appropriately in the table, and verifying that the uploaded file was a valid JSON file. The results achieved include displaying data correctly in the table, adding editable notes, and exporting the edited data to an Excel file.
 
-![Uploading image.png…]()
+![Screenshot 2024-12-01 121850](https://github.com/user-attachments/assets/dc0681b5-767e-4c7f-81b3-a6b680c8ce84)
